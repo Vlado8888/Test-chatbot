@@ -31,7 +31,12 @@
     apiHost: "https://flowiseai-railway-production-170d.up.railway.app",
     theme: {
       button: {
-        backgroundColor: '#b9381c'
+        backgroundColor: '#b9381c',
+        autoWindowOpen: {
+            autoOpen: true,           // Nastaviť na true pre automatické otvorenie
+            openDelay: 5,             // Oneskorenie v sekundách pred otvorením 
+            autoOpenOnMobile: false   // Ak chcete, aby sa otváralo automaticky aj na mobiloch
+        }
       },
       chatWindow: {
         showTitle: true,
